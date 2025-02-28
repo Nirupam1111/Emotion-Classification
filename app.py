@@ -4,6 +4,7 @@ import re
 from nltk.stem import PorterStemmer
 import pickle
 import nltk
+nltk.download('punkt')
 nltk.download('stopwords')
 stopwords = set(nltk.corpus.stopwords.words('english'))
 
